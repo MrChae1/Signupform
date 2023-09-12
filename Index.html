@@ -5,9 +5,48 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
         <script src="script.js" defer></script>
-        <title>Based Form</title>
+        <title>Sign-Up form</title>
     </head>
     <body>
-        <h1>Hello</h1>   
+        <main>
+            <div class="container">
+                <section class="section1">
+                    <h1>TODACODE</h1>
+                    <p>QR  CODE BASED-FARE PAYMENT SYSTEM</p>
+                </section>
+                <section class="section2">
+                        <form action="">
+                            <div class="header2">
+                                <h2>CREATE AN ACCOUNT</h2>
+                            </div>    
+                            <div class="input1">
+                                <input type="text" placeholder="Fullname" required>
+                                <input type="text" placeholder="Address" required>
+                                <input type="email" placeholder="Email" required>
+                                <input type="tel" placeholder="Contact Number" required>
+                            </div>
+                            <div class="passInput">
+                                <input type="password" placeholder="Password" required>
+                                <input type="password" placeholder="Confirm Password" required>
+                            </div>
+                            <div class="forRadioBtn">
+                                <div class="passengerUser">
+                                    <input type="radio" id="passenger" name="user" required>
+                                    <label for="passenger">Passenger</label>
+                                </div>
+                                <div class="driverUser">
+                                    <input type="radio" id="driver" name="user">
+                                    <label for="driver">Driver</label>
+                                </div>      
+                            </div> 
+                            <div>
+                                <button type="submit">Create An Account</button>
+                                <p>Already have an Account? <a href="#">Login Account</a></p>  
+                            </div> 
+                        </form>
+                       
+                </section>
+            </div>
+        </main>
     </body>
 </html>
